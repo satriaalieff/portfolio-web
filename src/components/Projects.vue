@@ -1,33 +1,37 @@
 <template>
-    <h2 id="projects" class="text-neutral-200 text-5xl w-full text-center pt-2">Projects</h2>
-    <section class="container mx-auto grid px-12 mt-10 z-50">
+    <h2 id="projects" class="text-neutral-200 text-3xl md:text-5xl w-full text-center pt-2">Projects</h2>
+    <section class="container mx-auto grid px-5 md:px-12 mt-10 z-40">
         <!-- 1 -->
-        <div class="panel rounded w-full min-h-screen flex flex-col gap-5 py-5 px-10 bg-neutral-200 text-neutral-800">
+        <div
+            class="panel rounded w-full min-h-screen flex flex-col gap-2 md:gap-5 py-2 md:py-5 px-3 md:px-10 bg-neutral-200 text-neutral-800">
             <div class="w-full flex justify-between items-center">
-                <h3 class="text-2xl font-semibold">Fitivities
+                <h3 class="text-base md:text-2xl font-semibold">Fitivities
                     <span class="text-neutral-500 font-normal">(Under Development)</span>
                 </h3>
-                <p class="text-neutral-500">Current</p>
+                <p class="text-sm text-neutral-500">Current</p>
             </div>
 
             <div
                 class="flex-grow hover:rounded-none hover:scale-105 w-full h-full bg-[url('./assets/website-fitivities.jpg')] hover:bg-[url('./assets/website-fitivities-2.jpg')] duration-1000 rounded bg-cover bg-center cursor-default group">
             </div>
-            <div class="grid grid-cols-2">
-                <p class="col-span-1 font-semibold">
-                    Technologies : Vue.js, Tailwind, Backend Integration <br>
-                    <span class="font-normal">Features : Midtrands Payment, Add Review, QR Code Integration</span>
+            <div class="grid grid-cols-2 gap-5">
+                <p class="text-sm col-span-1 font-semibold">
+                    <span class="font-normal">Technologies :</span> Vue.js, Tailwind, Backend Integration <br>
+                    <span class="font-normal hidden md:block">Features : Midtrands Payment, Add Review, QR Code
+                        Integration</span>
                 </p>
-                <p class="col-span-1">Fitivities is the official website of a gym, offering comprehensive information
+                <p class="col-span-1 text-sm md:text-base">Fitivities is the official website of a gym, offering
+                    comprehensive information
                     about its facilities, classes, and membership options</p>
             </div>
         </div>
 
         <!-- 2 -->
-        <div class="panel rounded w-full min-h-screen flex flex-col gap-5 py-5 px-10 bg-neutral-800 text-neutral-200">
+        <div
+            class="panel rounded w-full min-h-screen flex flex-col gap-2 md:gap-5 py-2 md:py-5 px-3 md:px-10 bg-neutral-800 text-neutral-200">
             <div class="w-full flex justify-between items-center">
-                <h3 class="text-2xl font-semibold">Movie List</h3>
-                <p class="text-neutral-500">2024</p>
+                <h3 class="text-base md:text-2xl font-semibold">Movie List</h3>
+                <p class="text-sm text-neutral-500">2024</p>
             </div>
 
             <a class="flex-grow hover:rounded-none hover:scale-105 w-full h-full bg-[url('./assets/website-movie-list.jpg')] hover:bg-[url('./assets/website-movie-list-2.jpg')] duration-1000 rounded bg-cover bg-center cursor-pointer group"
@@ -40,21 +44,23 @@
                     </svg>
                 </span>
             </a>
-            <div class="grid grid-cols-2">
-                <p class="col-span-1 font-semibold">
-                    Technologies : Webpack, Tailwind, AJAX, Public API<br>
-                    <span class="font-normal">Features : Search Film, Film Category</span>
+            <div class="grid grid-cols-2 gap-5">
+                <p class="text-sm col-span-1 font-semibold">
+                    <span class="font-normal">Technologies :</span> Webpack, Tailwind, AJAX, Public API<br>
+                    <span class="font-normal hidden md:block">Features : Search Film, Film Category</span>
                 </p>
-                <p class="col-span-1">Movie List is a comprehensive website that displays an extensive list of movies
+                <p class="col-span-1 text-sm md:text-base">Movie List is a comprehensive website that displays an
+                    extensive list of movies
                     using data from the public MovieDB API</p>
             </div>
         </div>
 
         <!-- 3 -->
-        <div class="panel rounded w-full min-h-screen flex flex-col gap-5 py-5 px-10 bg-neutral-200 text-neutral-800">
+        <div
+            class="panel rounded w-full min-h-screen flex flex-col gap-2 md:gap-5 py-2 md:py-5 px-3 md:px-10 bg-neutral-200 text-neutral-800">
             <div class="w-full flex justify-between items-center">
-                <h3 class="text-2xl font-semibold">FlavorQuest</h3>
-                <p class="text-neutral-500">2023</p>
+                <h3 class="text-base md:text-2xl font-semibold">FlavorQuest</h3>
+                <p class="text-sm text-neutral-500">2023</p>
             </div>
             <a class="flex-grow hover:rounded-none hover:scale-105 duration-1000 rounded bg-[url('./assets/website-flavor-quest.jpg')] hover:bg-[url('./assets/website-flavor-quest-2.jpg')] bg-cover bg-center w-full h-full cursor-pointer group"
                 href="https://gatito-flavor-quest.netlify.app/" target="_blank">
@@ -66,21 +72,23 @@
                     </svg>
                 </span>
             </a>
-            <div class="grid grid-cols-2">
-                <p class="col-span-1 font-semibold">
-                    Technologies : Webpack, Tailwind, AJAX, API<br>
-                    <span class="font-normal">Features : Add Review, Add to Favorite</span>
+            <div class="grid grid-cols-2 gap-5">
+                <p class="text-sm col-span-1 font-semibold">
+                    <span class="font-normal">Technologies :</span> Webpack, Tailwind, AJAX, API<br>
+                    <span class="font-normal hidden md:block">Features : Add Review, Add to Favorite</span>
                 </p>
-                <p class="col-span-1">FlavorQuest is a comprehensive restaurant recommendation website designed to help
+                <p class="col-span-1 text-sm md:text-base">FlavorQuest is a comprehensive restaurant recommendation
+                    website designed to help
                     users discover the best dining experiences. </p>
             </div>
         </div>
 
         <!-- 4 -->
-        <div class="panel rounded w-full min-h-screen flex flex-col gap-5 py-5 px-10 bg-neutral-800 text-neutral-200">
+        <div
+            class="panel rounded w-full min-h-screen flex flex-col gap-2 md:gap-5 py-2 md:py-5 px-3 md:px-10 bg-neutral-800 text-neutral-200">
             <div class="w-full flex justify-between items-center">
-                <h3 class="text-2xl font-semibold">Booksheld</h3>
-                <p class="text-neutral-500">2023</p>
+                <h3 class="text-base md:text-2xl font-semibold">Booksheld</h3>
+                <p class="text-sm text-neutral-500">2023</p>
             </div>
             <a class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-bookshelf.jpg')] hover:bg-[url('./assets/website-bookshelf-2.jpg')] duration-1000 rounded bg-cover bg-center w-full h-full cursor-pointer group"
                 href="https://gatito-bookshelf.netlify.app/" target="_blank">
@@ -92,18 +100,21 @@
                     </svg>
                 </span>
             </a>
-            <div class="grid grid-cols-2">
-                <p class="col-span-1 font-semibold">Technologies : Browser Local Storage</p>
-                <p class="col-span-1">Bookshelf is a user-friendly website that serves as a digital bookshelf, allowing
+            <div class="grid grid-cols-2 gap-5">
+                <p class="text-sm col-span-1 font-semibold"><span class="font-normal">Technologies :</span> Browser
+                    Local Storage</p>
+                <p class="col-span-1 text-sm md:text-base">Bookshelf is a user-friendly website that serves as a digital
+                    bookshelf, allowing
                     users to store and manage the books they are currently reading and have already read</p>
             </div>
         </div>
 
         <!-- 5 -->
-        <div class="panel rounded w-full min-h-screen flex flex-col gap-5 py-5 px-10 bg-neutral-200 text-neutral-800">
+        <div
+            class="panel rounded w-full min-h-screen flex flex-col gap-2 md:gap-5 py-2 md:py-5 px-3 md:px-10 bg-neutral-200 text-neutral-800">
             <div class="w-full flex justify-between items-center">
-                <h3 class="text-2xl font-semibold">Gatito Store</h3>
-                <p class="text-neutral-500">2023</p>
+                <h3 class="text-base md:text-2xl font-semibold">Gatito Store</h3>
+                <p class="text-sm text-neutral-500">2023</p>
             </div>
             <a class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-store.jpg')] hover:bg-[url('./assets/website-store-2.jpg')] duration-1000 rounded bg-cover bg-center w-full h-full cursor-pointer group"
                 href="https://gatito-store.netlify.app/" target="_blank">
@@ -115,30 +126,33 @@
                     </svg>
                 </span>
             </a>
-            <div class="grid grid-cols-2">
-                <p class="col-span-1 font-semibold">Technologies : Tailwind</p>
-                <p class="col-span-1">Gatito Store is a sleek and modern landing page for an online shop specializing in
+            <div class="grid grid-cols-2 gap-5">
+                <p class="text-sm col-span-1 font-semibold"><span class="font-normal">Technologies :</span> Tailwind</p>
+                <p class="col-span-1 text-sm md:text-base">Gatito Store is a sleek and modern landing page for an online
+                    shop specializing in
                     high-quality computer peripherals</p>
             </div>
         </div>
 
         <!-- 6 -->
-        <div class="panel rounded w-full min-h-screen flex flex-col gap-5 py-5 px-10 bg-neutral-800 text-neutral-200">
+        <div
+            class="panel rounded w-full min-h-screen flex flex-col gap-2 md:gap-5 py-2 md:py-5 px-3 md:px-10 bg-neutral-800 text-neutral-200">
             <div class="w-full flex justify-between items-center">
-                <h3 class="text-2xl font-semibold">Games Catalogue
+                <h3 class="text-base md:text-2xl font-semibold">Games Catalogue
                     <span class="text-neutral-500 font-normal">(Not deployed)</span>
                 </h3>
-                <p class="text-neutral-500">2024</p>
+                <p class="text-sm text-neutral-500">2024</p>
             </div>
             <div
                 class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-games-catalogue.png')] hover:bg-[url('./assets/website-games-catalogue-2.png')] duration-1000 rounded bg-cover bg-center w-full h-full cursor-default group">
             </div>
-            <div class="grid grid-cols-2">
-                <p class="col-span-1 font-semibold">
-                    Technologies : PHP, Apache, Dataset<br>
-                    <span class="font-normal">Features : Search Games, Sort by</span>
+            <div class="grid grid-cols-2 gap-5">
+                <p class="text-sm col-span-1 font-semibold">
+                    <span class="font-normal">Technologies :</span> PHP, Apache, Dataset<br>
+                    <span class="font-normal hidden md:block">Features : Search Games, Sort by</span>
                 </p>
-                <p class="col-span-1">Games Catalogue is an extensive online platform dedicated to providing a
+                <p class="col-span-1 text-sm md:text-base">Games Catalogue is an extensive online platform dedicated to
+                    providing a
                     comprehensive catalog of games across various genres and platforms</p>
             </div>
         </div>

@@ -1,13 +1,13 @@
 <template>
-    <section id="about" class="container mx-auto pt-40 grid grid-cols-2 gap-40 text-neutral-100">
+    <section id="about" class="container mx-auto pt-20 md:pt-40 grid md:grid-cols-2 gap-20 md:gap-40 px-5 md:px-0 text-neutral-100">
         <div class="flex flex-col gap-1">
-            <h4 class="text-3xl mb-5">
+            <h4 class="text-2xl md:text-3xl mb-5">
                 About
             </h4>
-            <p class="text-xl font-semibold">
+            <p class="text-base md:text-xl font-medium md:font-semibold">
                 Satria Alief Putra Hidayat
             </p>
-            <p class="text-neutral-500 hover:text-neutral-100  duration-300">
+            <p class="text-base text-neutral-500 hover:text-neutral-100  duration-300">
                 Computer Science Student at Padjajaran University who are interested in Website Development, especially
                 <span class="text-neutral-100 duration-300">Front-End</span>
                 Website. Mastering several programming languages,
@@ -74,11 +74,11 @@
 
             </div>
         </div>
-        <div class="flex flex-col justify-self-end">
-            <h4 class="text-3xl mb-5 text-end">
+        <div class="flex flex-col md:justify-self-end">
+            <h4 class="text-2xl md:text-3xl mb-5 md:text-end">
                 Skills
             </h4>
-            <ul class="flex flex-col text-end text-base text-neutral-500">
+            <ul class="flex flex-col md:text-end text-base text-neutral-500">
                 <li class="hover:text-neutral-100 duration-75 cursor-default">Vue</li>
                 <li class="hover:text-neutral-100 duration-75 cursor-default">Tailwind</li>
                 <li class="hover:text-neutral-100 duration-75 cursor-default">Webpack</li>
