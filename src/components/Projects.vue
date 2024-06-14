@@ -12,7 +12,7 @@
             </div>
 
             <div
-                class="flex-grow hover:rounded-none hover:scale-105 w-full h-full bg-[url('./assets/website-fitivities.jpg')] hover:bg-[url('./assets/website-fitivities-2.jpg')] duration-1000 rounded bg-cover bg-center cursor-default group">
+                class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-fitivities.jpg')] hover:bg-[url('./assets/website-fitivities-2.jpg')] duration-1000 rounded bg-cover bg-top cursor-default group">
             </div>
             <div class="grid grid-cols-2 gap-5">
                 <p class="text-sm col-span-1 font-semibold">
@@ -34,7 +34,7 @@
                 <p class="text-sm text-neutral-500">2024</p>
             </div>
 
-            <a class="flex-grow hover:rounded-none hover:scale-105 w-full h-full bg-[url('./assets/website-movie-list.jpg')] hover:bg-[url('./assets/website-movie-list-2.jpg')] duration-1000 rounded bg-cover bg-center cursor-pointer group"
+            <a class="flex-grow hover:rounded-none hover:scale-105 w-full h-full bg-[url('./assets/website-movie-list.jpg')] hover:bg-[url('./assets/website-movie-list-2.jpg')] duration-1000 rounded bg-cover bg-top cursor-pointer group"
                 href="https://gatito-movie-list.netlify.app/" target="_blank">
                 <span
                     class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
@@ -62,7 +62,7 @@
                 <h3 class="text-base md:text-2xl font-semibold">FlavorQuest</h3>
                 <p class="text-sm text-neutral-500">2023</p>
             </div>
-            <a class="flex-grow hover:rounded-none hover:scale-105 duration-1000 rounded bg-[url('./assets/website-flavor-quest.jpg')] hover:bg-[url('./assets/website-flavor-quest-2.jpg')] bg-cover bg-center w-full h-full cursor-pointer group"
+            <a class="flex-grow hover:rounded-none hover:scale-105 duration-1000 rounded bg-[url('./assets/website-flavor-quest.jpg')] hover:bg-[url('./assets/website-flavor-quest-2.jpg')] bg-cover bg-top w-full h-full cursor-pointer group"
                 href="https://gatito-flavor-quest.netlify.app/" target="_blank">
                 <span
                     class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
@@ -90,7 +90,7 @@
                 <h3 class="text-base md:text-2xl font-semibold">Booksheld</h3>
                 <p class="text-sm text-neutral-500">2023</p>
             </div>
-            <a class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-bookshelf.jpg')] hover:bg-[url('./assets/website-bookshelf-2.jpg')] duration-1000 rounded bg-cover bg-center w-full h-full cursor-pointer group"
+            <a class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-bookshelf.jpg')] hover:bg-[url('./assets/website-bookshelf-2.jpg')] duration-1000 rounded bg-cover bg-top w-full h-full cursor-pointer group"
                 href="https://gatito-bookshelf.netlify.app/" target="_blank">
                 <span
                     class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
@@ -116,7 +116,7 @@
                 <h3 class="text-base md:text-2xl font-semibold">Gatito Store</h3>
                 <p class="text-sm text-neutral-500">2023</p>
             </div>
-            <a class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-store.jpg')] hover:bg-[url('./assets/website-store-2.jpg')] duration-1000 rounded bg-cover bg-center w-full h-full cursor-pointer group"
+            <a class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-store.jpg')] hover:bg-[url('./assets/website-store-2.jpg')] duration-1000 rounded bg-cover bg-top w-full h-full cursor-pointer group"
                 href="https://gatito-store.netlify.app/" target="_blank">
                 <span
                     class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
@@ -144,7 +144,7 @@
                 <p class="text-sm text-neutral-500">2024</p>
             </div>
             <div
-                class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-games-catalogue.png')] hover:bg-[url('./assets/website-games-catalogue-2.png')] duration-1000 rounded bg-cover bg-center w-full h-full cursor-default group">
+                class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-games-catalogue.png')] hover:bg-[url('./assets/website-games-catalogue-2.png')] duration-1000 rounded bg-cover bg-top w-full h-full cursor-default group">
             </div>
             <div class="grid grid-cols-2 gap-5">
                 <p class="text-sm col-span-1 font-semibold">
