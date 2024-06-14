@@ -5,7 +5,7 @@
         <div class="panel rounded w-full min-h-screen flex flex-col gap-5 py-5 px-10 bg-neutral-200 text-neutral-800">
             <div class="w-full flex justify-between items-center">
                 <h3 class="text-2xl font-semibold">Fitivities
-                    <span class="text-neutral-500 font-normal">(Not deployed yet)</span>
+                    <span class="text-neutral-500 font-normal">(Under Development)</span>
                 </h3>
                 <p class="text-neutral-500">Current</p>
             </div>
