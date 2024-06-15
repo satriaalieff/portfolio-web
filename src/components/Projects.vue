@@ -87,7 +87,7 @@
         <div
             class="panel rounded w-full min-h-screen flex flex-col gap-2 md:gap-5 py-2 md:py-5 px-3 md:px-10 bg-neutral-800 text-neutral-200">
             <div class="w-full flex justify-between items-center">
-                <h3 class="text-base md:text-2xl font-semibold">Booksheld</h3>
+                <h3 class="text-base md:text-2xl font-semibold">Bookshelf</h3>
                 <p class="text-sm text-neutral-500">2023</p>
             </div>
             <a class="flex-grow hover:rounded-none hover:scale-105 bg-[url('./assets/website-bookshelf.jpg')] hover:bg-[url('./assets/website-bookshelf-2.jpg')] duration-1000 rounded bg-cover bg-top w-full h-full cursor-pointer group"
