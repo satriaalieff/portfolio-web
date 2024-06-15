@@ -1,7 +1,7 @@
 <template>
-    <div class="w-full absolute place-self-center px-5">
+    <div class="w-full absolute place-self-center px-5 lg:px-10 xl:px-16">
         <div
-            class="container m-auto w-full py-3 md:py-5 px-5 md:px-1 flex justify-between items-center sm:border-b-neutral-500 sm:border-b-[0.1px]">
+            class="container m-auto w-full py-3 md:py-5 px-1 md:px-1 flex justify-between items-center sm:border-b-neutral-500 sm:border-b-[0.1px]">
             <h1 class="bg-gradient-to-r from-neutral-300 to-neutral-500 text-transparent bg-clip-text text-lg">Satria.
             </h1>
             <ul id="hamburger-menu"

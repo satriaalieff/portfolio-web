@@ -1,5 +1,5 @@
 <template>
-    <main class="px-5 font-primary flex flex-col">
+    <main class="px-0 md:px-5 lg:px-10 xl:px-16 font-primary flex flex-col">
         <Navbar></Navbar>
         <Hero></Hero>
         <Projects></Projects>
