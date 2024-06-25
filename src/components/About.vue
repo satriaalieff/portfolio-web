@@ -1,5 +1,6 @@
 <template>
-    <section id="about" class="container mx-auto pt-20 md:pt-40 grid md:grid-cols-2 gap-20 md:gap-40 px-5 md:px-0 text-neutral-100">
+    <section id="about"
+        class="container mx-auto pt-20 md:pt-40 grid md:grid-cols-2 gap-20 md:gap-40 px-5 md:px-0 text-neutral-100">
         <div class="flex flex-col gap-1">
             <h4 class="text-2xl md:text-3xl mb-5">
                 About
@@ -22,8 +23,7 @@
             </p>
             <div class="flex gap-3 mt-5 items-center">
                 <a href="https://www.linkedin.com/in/satriaalieff/">
-                    <svg class="hover:scale-95 duration-75" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
                         <g fill="none">
                             <rect width="256" height="256" fill="#fff" rx="60" />
                             <rect width="256" height="256" fill="#0a66c2" rx="60" />
@@ -33,8 +33,7 @@
                     </svg>
                 </a>
                 <a href="mailto:satrialief0@gmail.com">
-                    <svg class="hover:scale-95 duration-75" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
                         <g fill="none">
                             <rect width="256" height="256" fill="#f4f2ed" rx="60" />
                             <path fill="#4285f4"
@@ -51,8 +50,7 @@
                     </svg>
                 </a>
                 <a href="https://wa.me/6281293015156">
-                    <svg class="hover:scale-95 duration-75" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 256 258">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 258">
                         <defs>
                             <linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%">
                                 <stop offset="0%" stop-color="#1faf38" />
