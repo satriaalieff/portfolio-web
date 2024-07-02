@@ -11,8 +11,10 @@
                 <p class="text-sm text-neutral-500">Current</p>
             </div>
 
-            <div
-                class="flex-grow sm:hover:rounded-none sm:hover:scale-105 bg-[url('./assets/website-fitivities-mobile.jpg')] sm:bg-[url('./assets/website-fitivities.jpg')] sm:hover:bg-[url('./assets/website-fitivities-2.jpg')] sm:duration-1000 rounded bg-cover bg-top cursor-default group">
+            <div class="flex-grow w-full h-full rounded group flex relative overflow-hidden">
+                <div
+                    class="flex-grow sm:group-hover:scale-105  bg-[url('./assets/website-fitivities-mobile.jpg')] sm:bg-[url('./assets/website-fitivities.jpg')] sm:group-hover:bg-[url('./assets/website-fitivities-2.jpg')] bg-cover bg-top sm:duration-1000">
+                </div>
             </div>
             <div class="grid grid-cols-2 gap-5">
                 <p class="text-sm col-span-1 font-semibold">
@@ -34,11 +36,13 @@
                 <p class="text-sm text-neutral-500">2024</p>
             </div>
 
-            <a class="flex-grow sm:hover:rounded-none sm:hover:scale-105 w-full h-full bg-[url('./assets/website-movie-list-mobile.jpg')] sm:bg-[url('./assets/website-movie-list.jpg')] sm:hover:bg-[url('./assets/website-movie-list-2.jpg')] sm:duration-1000 rounded bg-cover bg-top cursor-pointer group"
+            <a class="flex-grow w-full h-full rounded cursor-pointer group flex relative overflow-hidden"
                 href="https://gatito-movie-list.netlify.app/" target="_blank">
-                <span
-                    class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 256 256">
+                <div
+                    class="flex-grow sm:group-hover:scale-105  bg-[url('./assets/website-movie-list-mobile.jpg')] sm:bg-[url('./assets/website-movie-list.jpg')] sm:group-hover:bg-[url('./assets/website-movie-list-2.jpg')] bg-cover bg-top sm:duration-1000">
+                </div>
+                <span class="absolute right-4 top-4 opacity-0 group-hover:opacity-100 text-white duration-300 bounce">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 256 256">
                         <path fill="currentColor"
                             d="M202.83 114.83a4 4 0 0 1-5.66 0L132 49.66V216a4 4 0 0 1-8 0V49.66l-65.17 65.17a4 4 0 0 1-5.66-5.66l72-72a4 4 0 0 1 5.66 0l72 72a4 4 0 0 1 0 5.66" />
                     </svg>
@@ -62,11 +66,14 @@
                 <h3 class="text-base md:text-2xl font-semibold">FlavorQuest</h3>
                 <p class="text-sm text-neutral-500">2023</p>
             </div>
-            <a class="flex-grow sm:hover:rounded-none sm:hover:scale-105 sm:duration-1000 rounded bg-[url('./assets/website-flavor-quest-mobile.jpg')] sm:bg-[url('./assets/website-flavor-quest.jpg')] sm:hover:bg-[url('./assets/website-flavor-quest-2.jpg')] bg-cover bg-top w-full h-full cursor-pointer group"
+
+            <a class="flex-grow w-full h-full rounded cursor-pointer group flex relative overflow-hidden"
                 href="https://gatito-flavor-quest.netlify.app/" target="_blank">
-                <span
-                    class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 256 256">
+                <div
+                    class="flex-grow sm:group-hover:scale-105  bg-[url('./assets/website-flavor-quest-mobile.jpg')] sm:bg-[url('./assets/website-flavor-quest.jpg')] sm:group-hover:bg-[url('./assets/website-flavor-quest-2.jpg')] bg-cover bg-top sm:duration-1000">
+                </div>
+                <span class="absolute right-4 top-4 opacity-0 group-hover:opacity-100 text-white duration-300 bounce">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 256 256">
                         <path fill="currentColor"
                             d="M202.83 114.83a4 4 0 0 1-5.66 0L132 49.66V216a4 4 0 0 1-8 0V49.66l-65.17 65.17a4 4 0 0 1-5.66-5.66l72-72a4 4 0 0 1 5.66 0l72 72a4 4 0 0 1 0 5.66" />
                     </svg>
@@ -90,11 +97,14 @@
                 <h3 class="text-base md:text-2xl font-semibold">Bookshelf</h3>
                 <p class="text-sm text-neutral-500">2023</p>
             </div>
-            <a class="flex-grow sm:hover:rounded-none sm:hover:scale-105 bg-[url('./assets/website-bookshelf-mobile.jpg')] sm:bg-[url('./assets/website-bookshelf.jpg')] sm:hover:bg-[url('./assets/website-bookshelf-2.jpg')] sm:duration-1000 rounded bg-cover bg-top w-full h-full cursor-pointer group"
+
+            <a class="flex-grow w-full h-full rounded cursor-pointer group flex relative overflow-hidden"
                 href="https://gatito-bookshelf.netlify.app/" target="_blank">
-                <span
-                    class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 256 256">
+                <div
+                    class="flex-grow sm:group-hover:scale-105  bg-[url('./assets/website-bookshelf-mobile.jpg')] sm:bg-[url('./assets/website-bookshelf.jpg')] sm:group-hover:bg-[url('./assets/website-bookshelf-2.jpg')] bg-cover bg-top sm:duration-1000">
+                </div>
+                <span class="absolute right-4 top-4 opacity-0 group-hover:opacity-100 text-white duration-300 bounce">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 256 256">
                         <path fill="currentColor"
                             d="M202.83 114.83a4 4 0 0 1-5.66 0L132 49.66V216a4 4 0 0 1-8 0V49.66l-65.17 65.17a4 4 0 0 1-5.66-5.66l72-72a4 4 0 0 1 5.66 0l72 72a4 4 0 0 1 0 5.66" />
                     </svg>
@@ -116,11 +126,14 @@
                 <h3 class="text-base md:text-2xl font-semibold">Gatito Store</h3>
                 <p class="text-sm text-neutral-500">2023</p>
             </div>
-            <a class="flex-grow sm:hover:rounded-none sm:hover:scale-105 bg-[url('./assets/website-store-mobile.jpg')] sm:bg-[url('./assets/website-store.jpg')] sm:hover:bg-[url('./assets/website-store-2.jpg')] sm:duration-1000 rounded bg-cover bg-top w-full h-full cursor-pointer group"
+
+            <a class="flex-grow w-full h-full rounded cursor-pointer group flex relative overflow-hidden"
                 href="https://gatito-store.netlify.app/" target="_blank">
-                <span
-                    class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 256 256">
+                <div
+                    class="flex-grow sm:group-hover:scale-105  bg-[url('./assets/website-store-mobile.jpg')] sm:bg-[url('./assets/website-store.jpg')] sm:group-hover:bg-[url('./assets/website-store-2.jpg')] bg-cover bg-top sm:duration-1000">
+                </div>
+                <span class="absolute right-4 top-4 opacity-0 group-hover:opacity-100 text-white duration-300 bounce">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 256 256">
                         <path fill="currentColor"
                             d="M202.83 114.83a4 4 0 0 1-5.66 0L132 49.66V216a4 4 0 0 1-8 0V49.66l-65.17 65.17a4 4 0 0 1-5.66-5.66l72-72a4 4 0 0 1 5.66 0l72 72a4 4 0 0 1 0 5.66" />
                     </svg>
@@ -143,8 +156,11 @@
                 </h3>
                 <p class="text-sm text-neutral-500">2024</p>
             </div>
-            <div
-                class="flex-grow sm:hover:rounded-none sm:hover:scale-105 bg-[url('./assets/website-games-catalogue.png')] sm:hover:bg-[url('./assets/website-games-catalogue-2.png')] sm:duration-1000 rounded bg-cover bg-top w-full h-full cursor-default group">
+
+            <div class="flex-grow w-full h-full rounded group flex relative overflow-hidden">
+                <div
+                    class="flex-grow group-hover:scale-105 bg-[url('./assets/website-games-catalogue.png')] group-hover:bg-[url('./assets/website-games-catalogue-2.png')] bg-cover bg-top duration-1000">
+                </div>
             </div>
             <div class="grid grid-cols-2 gap-5">
                 <p class="text-sm col-span-1 font-semibold">
@@ -163,3 +179,24 @@
 export default {
 }
 </script>
+
+<style scoped>
+.bounce {
+    rotate: 45deg;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+
+    50% {
+        transform: translateY(-15%);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+</style>
