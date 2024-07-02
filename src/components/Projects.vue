@@ -38,7 +38,7 @@
                 href="https://gatito-movie-list.netlify.app/" target="_blank">
                 <span
                     class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 256 256">
                         <path fill="currentColor"
                             d="M202.83 114.83a4 4 0 0 1-5.66 0L132 49.66V216a4 4 0 0 1-8 0V49.66l-65.17 65.17a4 4 0 0 1-5.66-5.66l72-72a4 4 0 0 1 5.66 0l72 72a4 4 0 0 1 0 5.66" />
                     </svg>
@@ -66,7 +66,7 @@
                 href="https://gatito-flavor-quest.netlify.app/" target="_blank">
                 <span
                     class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 256 256">
                         <path fill="currentColor"
                             d="M202.83 114.83a4 4 0 0 1-5.66 0L132 49.66V216a4 4 0 0 1-8 0V49.66l-65.17 65.17a4 4 0 0 1-5.66-5.66l72-72a4 4 0 0 1 5.66 0l72 72a4 4 0 0 1 0 5.66" />
                     </svg>
@@ -94,7 +94,7 @@
                 href="https://gatito-bookshelf.netlify.app/" target="_blank">
                 <span
                     class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 256 256">
                         <path fill="currentColor"
                             d="M202.83 114.83a4 4 0 0 1-5.66 0L132 49.66V216a4 4 0 0 1-8 0V49.66l-65.17 65.17a4 4 0 0 1-5.66-5.66l72-72a4 4 0 0 1 5.66 0l72 72a4 4 0 0 1 0 5.66" />
                     </svg>
@@ -120,7 +120,7 @@
                 href="https://gatito-store.netlify.app/" target="_blank">
                 <span
                     class="absolute right-4 top-4 rotate-45 opacity-0 group-hover:opacity-100 text-white duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 256 256">
                         <path fill="currentColor"
                             d="M202.83 114.83a4 4 0 0 1-5.66 0L132 49.66V216a4 4 0 0 1-8 0V49.66l-65.17 65.17a4 4 0 0 1-5.66-5.66l72-72a4 4 0 0 1 5.66 0l72 72a4 4 0 0 1 0 5.66" />
                     </svg>
